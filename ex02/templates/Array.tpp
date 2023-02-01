@@ -1,14 +1,10 @@
 #include <Array.hpp>
 
 template <typename T>
-Array<T>::Array( void ): _array(NULL), _size(0)
-{
-}
+Array<T>::Array( void ): _array(NULL), _size(0){}
 
 template <typename T>
-Array<T>::Array( unsigned int n ): _array(new T[n]), _size(n)
-{
-}
+Array<T>::Array( unsigned int n ): _array(new T[n]), _size(n){}
 
 template <typename T>
 Array<T>::Array( const Array<T> &a ): _array(new T[a._size]), _size(a._size)
