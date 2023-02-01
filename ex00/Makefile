@@ -1,4 +1,4 @@
-NAME			=	iter
+NAME			=	functions
 
 SRC_DIR		=	./src/
 OBJ_DIR		=	obj/
